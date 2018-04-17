@@ -1,0 +1,7 @@
+### DOCUMENTATION ###
+                # hidden layers  # neurons    # activation function   # optimizer   # epochs  # batch size
+
+result_3_1      3                (200,100,50) relu                    adam          50        32
+result_3_2      3                (200,100,50) tanh                    adam          50        32
+result_3_3      same as result_3_1 but with dropout of 0.2
+result_3_4      3                (100,50,20)  relu                    adam          50        5
